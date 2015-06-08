@@ -25,9 +25,9 @@
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
+                    "department": "Aerospace", 
                     "institute": "IIT Kanpur", 
-                    "name": "Dr. D. Goswami", 
+                    "name": "Dr. S. Kamle", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Chemical Engineering"
+                "Aerospace Engineering"
             ], 
-            "id": "chs13", 
+            "id": "ase", 
             "integration_level": 5, 
-            "name": "Ultra-fast", 
+            "name": "transducers-and-instrument-vlab-iitk", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
@@ -109,12 +109,11 @@
                 "arch": "i386", 
                 "hosting": "dedicated", 
                 "installer": ["sudo apt-get update",
-                "sudo apt-get install -y php5 apache2",
-		"sudo apt-get install -y mysql-server"], 
+                "sudo apt-get install -y php5 apache2"], 
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
-                    "init": ["mv /var/www/index.html index.html.default",
+                    "init": ["mv /var/www/index.php index.php.default",
                         "cp -r ../build/* /var/www/"
                         ], 
                     "pause": [], 
